@@ -1,4 +1,4 @@
 example_id                                         | status | run_time        |
 -------------------------------------------------- | ------ | --------------- |
-./spec/features/user_submits_a_link_spec.rb[1:1]   | passed | 0.10381 seconds |
-./spec/features/user_submits_a_link_spec.rb[1:2:1] | passed | 0.02089 seconds |
+./spec/features/user_submits_a_link_spec.rb[1:1]   | passed | 0.0967 seconds  |
+./spec/features/user_submits_a_link_spec.rb[1:2:1] | passed | 0.02035 seconds |
