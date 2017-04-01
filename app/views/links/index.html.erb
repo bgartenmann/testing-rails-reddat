@@ -2,6 +2,12 @@
 
 <ul>
 <% @links.each do |link| %>
-  <li><%= link_to link.title, link.url %></li>
+  <%= tag.li id: "link_#{link.id}" do %>
+    <%= link_to "Upvote", [link, :upvote], method: :post %>
+    <div data-role="score"><%= link.score %></div>
+    <%= link_to "Downvote", [link, :downvote], method: :post %>
+
+    <%= link_to link.title, link.url %>
+  <% end %>
 <% end %>
 </ul>
