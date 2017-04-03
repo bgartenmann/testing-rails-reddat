@@ -6,5 +6,11 @@ Rails.application.routes.draw do
     resource :downvote, only: [:create]
   end
 
+  namespace :api do
+    namespace :v1 do
+      resources :links, only: [:index]
+    end
+  end
+
   root to: "links#index"
 end

@@ -1,6 +1,6 @@
 <%= link_to "Submit a new link", new_link_path %>
 
-<ul>
+<ul id="links">
 <% @links.each do |link| %>
   <%= tag.li id: "link_#{link.id}" do %>
     <%= link_to "Upvote", [link, :upvote], method: :post %>
