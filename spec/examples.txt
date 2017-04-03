@@ -1,15 +1,17 @@
 example_id                                         | status | run_time        |
 -------------------------------------------------- | ------ | --------------- |
-./spec/features/user_downvotes_a_link_spec.rb[1:1] | passed | 0.0692 seconds  |
-./spec/features/user_submits_a_link_spec.rb[1:1]   | passed | 0.03035 seconds |
-./spec/features/user_submits_a_link_spec.rb[1:2:1] | passed | 0.01769 seconds |
-./spec/features/user_upvotes_a_link_spec.rb[1:1]   | passed | 0.02162 seconds |
-./spec/features/user_views_homepage_spec.rb[1:1]   | passed | 0.00944 seconds |
-./spec/features/user_views_homepage_spec.rb[1:2]   | passed | 0.01447 seconds |
-./spec/models/link_spec.rb[1:1]                    | passed | 0.00248 seconds |
-./spec/models/link_spec.rb[1:2]                    | passed | 0.00544 seconds |
-./spec/models/link_spec.rb[2:1]                    | passed | 0.00828 seconds |
-./spec/models/link_spec.rb[3:1]                    | passed | 0.0014 seconds  |
-./spec/models/link_spec.rb[4:1]                    | passed | 0.00171 seconds |
-./spec/models/link_spec.rb[5:1]                    | passed | 0.00085 seconds |
-./spec/requests/api/v1/links_spec.rb[1:1]          | passed | 0.1049 seconds  |
+./spec/features/user_downvotes_a_link_spec.rb[1:1] | passed | 0.02379 seconds |
+./spec/features/user_submits_a_link_spec.rb[1:1]   | passed | 0.07473 seconds |
+./spec/features/user_submits_a_link_spec.rb[1:2:1] | passed | 0.02074 seconds |
+./spec/features/user_upvotes_a_link_spec.rb[1:1]   | passed | 0.02064 seconds |
+./spec/features/user_views_homepage_spec.rb[1:1]   | passed | 0.00914 seconds |
+./spec/features/user_views_homepage_spec.rb[1:2]   | passed | 0.01486 seconds |
+./spec/models/link_spec.rb[1:1]                    | passed | 0.00169 seconds |
+./spec/models/link_spec.rb[1:2]                    | passed | 0.00596 seconds |
+./spec/models/link_spec.rb[2:1]                    | passed | 0.00651 seconds |
+./spec/models/link_spec.rb[3:1]                    | passed | 0.00191 seconds |
+./spec/models/link_spec.rb[4:1]                    | passed | 0.00174 seconds |
+./spec/models/link_spec.rb[5:1]                    | passed | 0.00099 seconds |
+./spec/requests/api/v1/links_spec.rb[1:1]          | passed | 0.00739 seconds |
+./spec/requests/api/v1/links_spec.rb[2:1]          | passed | 0.10344 seconds |
+./spec/requests/api/v1/links_spec.rb[2:2:1]        | passed | 0.00911 seconds |
