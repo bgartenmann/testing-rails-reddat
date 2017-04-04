@@ -17,7 +17,7 @@ class Link < ActiveRecord::Base
   end
 
   def score
-    upvotes - downvotes
+    Score.new(self)
   end
 
   def image?
